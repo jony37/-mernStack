@@ -48,3 +48,50 @@
 // // Array
 
 // const colors = ["black", 22, true, {}]
+
+
+// 5 dars 
+
+// alert("Hello world")
+
+// const isAccess = confirm("Are you above 18 age")
+// console.log(isAccess);
+
+// let name = prompt("What is your name","")
+// console.log(typeof name );
+
+// let age = +prompt("How old are you","")
+// console.log(typeof age);
+
+// const firtsName = "Fayzullans"
+// const lastName = "Ochilov"
+// const age = 22
+
+// console.log(`My full name is ${firtsName} ${lastName}, I'm ${age}`);
+
+// let x = 6
+// let y = 3
+
+
+// // Postfix 
+// x++
+// y-- 
+
+// // Prefix
+// ++x
+// --y
+
+
+// console.log(x);
+// console.log(y);
+
+// const isMarried = true
+// const isHaveChildren = false
+
+// const isFamaliy = isMarried || isHaveChildren
+
+// console.log(isFamaliy);
+
+
+
+
