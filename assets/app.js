@@ -49,8 +49,7 @@
 
 // const colors = ["black", 22, true, {}]
 
-
-// 5 dars 
+// 5 dars
 
 // alert("Hello world")
 
@@ -72,15 +71,13 @@
 // let x = 6
 // let y = 3
 
-
-// // Postfix 
+// // Postfix
 // x++
-// y-- 
+// y--
 
 // // Prefix
 // ++x
 // --y
-
 
 // console.log(x);
 // console.log(y);
@@ -92,25 +89,36 @@
 
 // console.log(isFamaliy);
 
-
-
-
-// // // // // // /// //// //// 6 DARS MASALA // /// // /// // // /// /// // / // 
+// // // // // // /// //// //// 6 DARS MASALA // /// // /// // // /// /// // / //
 
 const numberOfSeries = +prompt("Nechta seria kordingiz?", "");
 
 const seriesDB = {
-    count: numberOfSeries,
-    series: {},
-    actors: {},
-    geners: [],
-    privat: false,
+  count: numberOfSeries,
+  series: {},
+  actors: {},
+  geners: [],
+  privat: false,
 };
 
-const lastMovie = prompt("Oxirgi korgan serialingiz?", "")
-const raiting = prompt("Nechi baho berasiz?", "")
+for (let i = 1; i <= 2; i++) {
+  const a = prompt("Oxirgi korgan serialingiz?", "");
+  const b = prompt("Nechi baho berasiz?", "");
 
-seriesDB.series[lastMovie] = raiting
+  if (a === null) {
+    i = 1;
+  } else {
+    seriesDB.series[a] = b;
+  }
+}
 
- 
 console.log(seriesDB);
+
+// const a = prompt("Oxirgi korgan serialingiz?", "")
+// const b = prompt("Nechi baho berasiz?", "")
+
+// const c = prompt("Oxirgi korgan serialingiz?", "")
+// const d = prompt("Nechi baho berasiz?", "")
+
+// seriesDB.series[a] = b
+// seriesDB.series[c] = d
