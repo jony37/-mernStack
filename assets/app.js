@@ -91,7 +91,7 @@
 
 // Shartli operator
 
-// const trafficLight = "";
+// const trafficLight = "red";
 
 // if (trafficLight == "red") {
 //   console.log("Stop!");
