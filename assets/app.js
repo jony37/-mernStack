@@ -149,8 +149,19 @@
 // }
 
 // Function turlari
-function showHelloWorld () {
-    console.log("Hello world");
-}
 
-showHelloWorld()
+// declaration
+// function showHelloWorld (name) {
+//     console.log(`Hello world ${name}`);
+// }
+
+// showHelloWorld("Jonpolat")
+
+// function calculate(a, b) {
+//   return a + b;
+// }
+// const calcAdd18 = calculate(1, 8);
+// const calcAdd20 = calculate(1, 8);
+
+// console.log(calcAdd18 + 18);
+// console.log(calcAdd18 + 20);
