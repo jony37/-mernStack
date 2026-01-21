@@ -148,3 +148,9 @@
 //   }
 // }
 
+// Function turlari
+function showHelloWorld () {
+    console.log("Hello world");
+}
+
+showHelloWorld()
