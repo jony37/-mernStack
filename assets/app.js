@@ -180,11 +180,17 @@
 
 // Methodlar
 const text = "Hello wordl";
+const password = "      Jonpo'lat       "
 
 console.log(`Uzunligi ${text.length}`);
 
 console.log(`1#. Aniq possitsiyadagi indexdagi xarf ${text.charAt(1)}`);
-console.log(`2#. Aniq possitsiyadagi indexdagi xarfni kodi ${text.charCodeAt(1)}`);
-console.log(text[1] = "A");
+console.log(
+  `2#. Aniq possitsiyadagi indexdagi xarfni kodi ${text.charCodeAt(1)}`,
+);
+console.log((text[1] = "A"));
 console.log(`Textni katta xarifga utkazish ${text.toLocaleUpperCase()}`);
 console.log(`Textni kichkina xarifga utkazish ${text.toLowerCase()}`);
+console.log(`1#. Matindi Kesich: ${text.slice(0, 4)}`);
+console.log(`2#. Matindi Kesich: ${text.substring(0, 4)}`);
+console.log(`Ikki tarafdan bo'sh space olib tashlash: ${password.trim()}`);
