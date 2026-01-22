@@ -167,13 +167,24 @@
 //   return a + b;
 // }
 
-const showHellowWorld = function (text) {
-  console.log(text);
-};
+// const showHellowWorld = function (text) {
+//   console.log(text);
+// };
 
-showHellowWorld("Hello world");
+// showHellowWorld("Hello world");
 
-const calculate = function (a, b) {
-  return a + b;
-};
-console.log(calculate(10,11));
+// const calculate = function (a, b) {
+//   return a + b;
+// };
+// console.log(calculate(10,11));
+
+// Methodlar
+const text = "Hello wordl";
+
+console.log(`Uzunligi ${text.length}`);
+
+console.log(`1#. Aniq possitsiyadagi indexdagi xarf ${text.charAt(1)}`);
+console.log(`2#. Aniq possitsiyadagi indexdagi xarfni kodi ${text.charCodeAt(1)}`);
+console.log(text[1] = "A");
+console.log(`Textni katta xarifga utkazish ${text.toLocaleUpperCase()}`);
+console.log(`Textni kichkina xarifga utkazish ${text.toLowerCase()}`);
