@@ -200,3 +200,4 @@
 
 
 // Amaliyot
+console.log("uzimdi uzim aldab push qilip yotipman");
